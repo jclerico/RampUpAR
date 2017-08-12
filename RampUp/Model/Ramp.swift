@@ -11,7 +11,7 @@ import SceneKit
 
 class Ramp {
     
-    class func getRampForNAme(rampName: String) -> SCNNode {
+    class func getRampForName(rampName: String) -> SCNNode {
         switch rampName {
         case "pipe":
             return Ramp.getPipe()
